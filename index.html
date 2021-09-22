@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drum Voila</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="Jscript.js"></script>
+</head>
+<body>
+<div class="alert alert-info" role="alert">
+    <div class="text-center display-2">
+        <div class="badge badge-primary text-wrap">
+            Welcome to Drum Studio
+        </div>
+
+    </div>
+</div>
+<div class="container-fluid">
+    <div>
+        <div class="float-left !bg-warning w-25 border border-dark">
+            <div>
+                <ul class="list-group-flush">
+                    <li class="list-group-item !bg-warning">
+                        <div class="bg-body rounded">
+                            <h1>Larger shadow</h1>
+                                    <button type="button" id="stopAll" class="btn btn-success" onclick="StopAll()">Stop Fusion
+                                        <kbd class="key-code">M</kbd></button>
+                        </div>
+
+                    </li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">A</kbd>
+                        Trombone
+                    </li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">S</kbd>
+                        Saxophone</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">D</kbd>
+                        Trumpet</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">F</kbd>
+                        Piano</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">G</kbd>
+                        Flute</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">H</kbd>
+                        Drum</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">J</kbd>
+                        Harmonica</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">K</kbd>
+                        Accordion</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">L</kbd>
+                        Bell</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">Q</kbd>
+                        Guitar</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">W</kbd>
+                        Conga</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">E</kbd>
+                        Xylophone</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">P</kbd>
+                        Snare drum</li>
+                    <li class="list-group-item !bg-warning">
+                        <kbd class="key-code">O</kbd>
+                        Maracas</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="float-right w-75">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <img src="./images/trombone.png" alt="trombone" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/Saxophone.png" alt="Saxophone" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/trumpet.png" alt="Trumpet" class="img rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/PIANO.png" alt="Piano" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/flute.png" alt="Flute" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/DRUM.png" alt="Drum" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/harmonica.png" alt="harmonica" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/Accordion.png" alt="Accordion" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/bell.png" alt="Bell" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/Guitar.png" alt="Guitar" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/Conga.png" alt="Conga" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/Xylophone.png" alt="Xylophone" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/Snare-drum.png" alt="Snare-drum" class="rounded">
+                    </div>
+                    <div class="col">
+                        <img src="./images/Maracas.png" alt="Maracas" class="rounded">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<audio loop id="audio_65_A_97" src="./sounds/Trombone.wav"></audio>
+<audio loop id="audio_83_S_115" src="./sounds/saxophone-blurp-1.wav"></audio>
+<audio loop id="audio_68_D_100" src="./sounds/Trumpet.wav"></audio>
+<audio loop id="audio_70_F_102" src="./sounds/Piano.wav"></audio>
+<audio loop id="audio_71_G_103" src="./sounds/flutter-flute-1.wav"></audio>
+<audio loop id="audio_72_H_104" src="./sounds/DRUM.wav"></audio>
+<audio loop id="audio_74_J_106" src="./sounds/blues-harmonica-lofi-7.wav"></audio>
+<audio loop id="audio_75_K_107" src="./sounds/Accordion.wav"></audio>
+<audio loop id="audio_76_L_108" src="./sounds/121_hard-latin-bell.wav"></audio>
+<audio loop id="audio_81_Q_113" src="./sounds/guitar.wav"></audio>
+<audio loop id="audio_87_W_119" src="./sounds/Conga.wav"></audio>
+<audio loop id="audio_69_E_101" src="./sounds/xylophone-granulations.wav"></audio>
+<audio loop id="audio_80_P_112" src="./sounds/snare_drum.wav"></audio>
+<audio loop id="audio_79_O_111" src="./sounds/MARACAS.wav"></audio>
+
+
+</body>
+</html>
